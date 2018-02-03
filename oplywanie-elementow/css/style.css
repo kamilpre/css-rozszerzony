@@ -1,0 +1,16 @@
+img#image {
+    float: left;
+}
+
+img#image2 {
+    float: right;
+}
+
+img#image {
+    float: none;
+}
+
+p:last-child {
+    background-color: yellow;
+    clear: right;
+}
