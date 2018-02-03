@@ -1,0 +1,30 @@
+a#link-1:link {
+    color: green;
+}
+a:visited {
+    color: red;
+}
+a#link-3:hover {
+    color: yellow;
+}
+a#link-4:active {
+    color: aqua;
+}
+
+div.tabela > div.klient:first-child {
+    background-color: aqua;
+}
+
+div.tabela > div.klient:last-child {
+    background-color: yellow;
+}
+
+div.tabela > div.klient:nth-child(even) {
+    background-color: red;
+}
+div.tabela > div.klient:nth-child(5) {
+    background-color: green;
+}
+div.tabela :nth-child(4n+5) {
+    background-color: blue;
+}
