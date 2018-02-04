@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0;
+}
+
+.box {
+    font-size: 16px;
+    height: 500px;
+    width: 25%;
+    padding: 50px;
+    float: left;
+    border: 10px solid orange;
+}
+
+@media (max-width:700px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media (min-width:700px) and (max-width:1200px) {
+    .box {
+        width: 50%;
+    }
+
+}
